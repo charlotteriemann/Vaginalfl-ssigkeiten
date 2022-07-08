@@ -1,0 +1,160 @@
+body {
+  margin: 0px;
+}
+
+.flexbox-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: wrap;
+}
+
+.flexelement-Text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.flexelement-Bild > img{
+  width: auto;
+  height: 100px;
+}
+
+.Feld {
+  width: 10vw;
+  height: auto;
+  background-color: black;
+}
+
+.accordion-1 {
+  background-color: rgb(0, 255, 0);
+  color: black;
+  cursor: pointer;
+  padding-left: 5px;
+  width: 190px;
+  height: 25px;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  position: fixed;
+  top: 0;
+  right: 0;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+
+}
+
+.panel-1 {
+
+  background-color: rgb(0, 255, 0);
+  width: 60vw;
+  height: 100vw;
+  display: none;
+  overflow: hidden;
+  position: fixed;
+  top: 25px;
+  right: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+  padding-right: 20vw;
+}
+
+.accordion-2 {
+  background-color: rgb(255, 68, 0);
+  color: black;
+  cursor: pointer;
+  padding-left: 5px;
+  width: 190px;
+  height: 25px;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  position: fixed;
+  top: 25px;
+  right: 0;
+  font-size: 20px;
+
+}
+
+.panel-2 {
+
+  background-color: rgb(255, 68, 0);
+  width: 60vw;
+  height: 100vw;
+  display: none;
+  overflow: hidden;
+  position: fixed;
+  top: 50px;
+  right: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+
+.accordion-3 {
+  background-color: rgb(0, 255, 255);
+  color: black;
+  cursor: pointer;
+  padding-left: 5px;
+  width: 190px;
+  height: 25px;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  position: fixed;
+  top: 50px;
+  right: 0;
+  font-size: 20px;
+
+}
+
+
+.panel-3 {
+
+  background-color: rgb(0, 255, 255);
+  width: 60vw;
+  height: 100vw;
+  display: none;
+  overflow: hidden;
+  position: fixed;
+  top: 75px;
+  right: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+
+.accordion-4 {
+  background-color: rgb(106, 0, 255);
+  color: black;
+  cursor: pointer;
+  padding-left: 5px;
+  width: 190px;
+  height: 25px;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  font-size: 20px;
+
+}
+
+
+.panel-4 {
+
+  background-color: rgb(106, 0 255);
+  width: 60vw;
+  height: 100vw;
+  display: none;
+  overflow: hidden;
+  position: fixed;
+  bottom: 3vh;
+  left: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}

@@ -1,0 +1,166 @@
+body {
+  margin: 0px;
+}
+
+.flexbox-container {
+    width: 80vw;
+    height: 100vh;
+    margin-right: 0;
+    margin-top: 0;
+    display: flex;
+    flex-flow: wrap;
+    
+
+  }
+
+.flexelement > img{
+    width: 10vw;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+
+.Text {
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; 
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+} 
+
+.Feld {
+  background-color: rgb(171, 171, 171);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+  width: 10vw;
+  height: 24.3vh;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+
+
+
+.accordion-1 {
+  background-color: rgb(0, 255, 0);
+  color: black;
+  cursor: pointer;
+  padding-left: 5px;
+  width: 190px;
+  height: 25px;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  position: fixed;
+  top: 0;
+  right: 0;
+  font-size: 20px;
+
+}
+
+
+.panel-1 {
+
+  background-color: rgb(0, 255, 0);
+  width: 60vw;
+  height: 100vw;
+  display: none;
+  overflow: hidden;
+  position: fixed;
+  top: 25px;
+  right: 0;
+}
+
+.accordion-2 {
+  background-color: rgb(255, 68, 0);
+  color: black;
+  cursor: pointer;
+  padding-left: 5px;
+  width: 190px;
+  height: 25px;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  position: fixed;
+  top: 25px;
+  right: 0;
+  font-size: 20px;
+
+}
+
+.panel-2 {
+
+  background-color: rgb(255, 68, 0);
+  width: 60vw;
+  height: 100vw;
+  display: none;
+  overflow: hidden;
+  position: fixed;
+  top: 50px;
+  right: 0;
+}
+
+.accordion-3 {
+  background-color: rgb(0, 255, 255);
+  color: black;
+  cursor: pointer;
+  padding-left: 5px;
+  width: 190px;
+  height: 25px;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  position: fixed;
+  top: 50px;
+  right: 0;
+  font-size: 20px;
+
+}
+
+
+.panel-3 {
+
+  background-color: rgb(0, 255, 255);
+  width: 60vw;
+  height: 100vw;
+  display: none;
+  overflow: hidden;
+  position: fixed;
+  top: 75px;
+  right: 0;
+}
+
+.accordion-4 {
+  background-color: rgb(106, 0, 255);
+  color: black;
+  cursor: pointer;
+  padding-left: 5px;
+  width: 190px;
+  height: 25px;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  font-size: 20px;
+
+}
+
+.panel-4 {
+
+  background-color: rgb(106, 0 255);
+  width: 60vw;
+  height: 100vw;
+  display: none;
+  overflow: hidden;
+  position: fixed;
+  bottom: 3vh;
+  left: 0;
+}
+
